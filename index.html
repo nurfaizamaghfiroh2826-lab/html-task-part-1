@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Task Part 1</title>
+
+    <style>
+        /* Grade A */
+        .grade-a {
+            border-collapse: separate;
+            border-spacing: 1px;
+            border: 1px solid black;
+            width: 85%;
+        }
+
+        .grade-a th,
+        .grade-a td {
+            border: 1px solid black;
+            padding: 7px;
+            text-align: center;
+        }
+
+
+        /* Grade B dan C */
+        .grade-b,
+        .grade-c {
+            border-collapse: collapse;
+            width: 65%;
+        }
+
+        .grade-b td,
+        .grade-c td {
+            border: 1px solid black;
+            padding: 7px;
+            text-align: center;
+        }
+
+
+        /* Warna biru */
+        .biru {
+            background-color: #6795e5;
+            color: white;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Grade A</h1>
+
+    <table class="grade-a">
+
+        <thead>
+            <tr>
+                <th rowspan="2">No</th>
+                <th rowspan="2">Nama</th>
+
+                <th colspan="2">HTML</th>
+                <th colspan="2">CSS</th>
+                <th colspan="2">JavaScript</th>
+
+                <th rowspan="2">Keterangan</th>
+            </tr>
+
+            <tr>
+                <th>Initial</th>
+                <th>Final</th>
+
+                <th>Initial</th>
+                <th>Final</th>
+
+                <th>Initial</th>
+                <th>Final</th>
+            </tr>
+        </thead>
+
+        <tbody>
+
+            <tr>
+                <td>1</td>
+                <td>Bill</td>
+                <td>80</td>
+                <td>90</td>
+                <td>78</td>
+                <td>85</td>
+                <td>85</td>
+                <td>90</td>
+                <td>Lulus</td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>Budi</td>
+                <td>78</td>
+                <td>90</td>
+                <td>88</td>
+                <td>90</td>
+                <td>80</td>
+                <td>88</td>
+                <td>Lulus</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>Abde</td>
+                <td>82</td>
+                <td>89</td>
+                <td>84</td>
+                <td>87</td>
+                <td>84</td>
+                <td>90</td>
+                <td>Lulus</td>
+            </tr>
+
+        </tbody>
+
+    </table>
+
+
+    <h1>Grade B</h1>
+
+    <table class="grade-b">
+
+        <thead>
+
+            <tr>
+                <td colspan="4" class="biru">
+                    Laporan Mahasiswa
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2">Nama</td>
+                <td colspan="2">Alamat</td>
+            </tr>
+
+            <tr>
+                <td>Nama Depan</td>
+                <td>Nama Belakang</td>
+                <td>Jalan</td>
+                <td>Kota</td>
+            </tr>
+
+        </thead>
+
+        <tbody>
+
+            <tr>
+                <td>Raka</td>
+                <td>Gibran</td>
+                <td>Sudirman</td>
+                <td>Bandung</td>
+            </tr>
+
+            <tr>
+                <td colspan="4">
+                    Hasil Studi
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2">Mata Kuliah</td>
+                <td colspan="2">Nilai</td>
+            </tr>
+
+            <tr>
+                <td colspan="2">Matematika</td>
+                <td colspan="2">A</td>
+            </tr>
+
+            <tr>
+                <td colspan="2">Fisika</td>
+                <td colspan="2">B</td>
+            </tr>
+
+            <tr>
+                <td colspan="4">
+                    Catatan Tambahan
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="4">
+                    Mahasiswa memiliki ketertarikan yang tinggi
+                    dalam kegiatan ekstrakurikuler.
+                </td>
+            </tr>
+
+        </tbody>
+
+    </table>
+
+
+    <h1>Grade C</h1>
+
+    <table class="grade-c">
+
+        <thead>
+
+            <tr>
+                <td class="biru">Hari</td>
+                <td class="biru">Waktu</td>
+                <td class="biru">Mata Kuliah</td>
+                <td class="biru">Dosen</td>
+            </tr>
+
+        </thead>
+
+        <tbody>
+
+            <tr>
+                <td>Senin</td>
+                <td>08:00 - 10:00</td>
+                <td>Kalkulus</td>
+                <td>Prof. Ahmad</td>
+            </tr>
+
+            <tr>
+                <td>Selasa</td>
+                <td>09:00 - 11:00</td>
+                <td>Algoritma dan Struktur Data</td>
+                <td>Dr. Budi</td>
+            </tr>
+
+            <tr>
+                <td>Rabu</td>
+                <td>10:00 - 12:00</td>
+                <td>Pemrograman Web</td>
+                <td>Dr. Cindy</td>
+            </tr>
+
+            <tr>
+                <td>Kamis</td>
+                <td>08:00 - 10:00</td>
+                <td>Jaringan Komputer</td>
+                <td>Prof. Elsa</td>
+            </tr>
+
+            <tr>
+                <td>Jumat</td>
+                <td>13:00 - 15:00</td>
+                <td>Basis Data</td>
+                <td>Dr. Farhan</td>
+            </tr>
+
+        </tbody>
+
+    </table>
+
+</body>
+</html>
