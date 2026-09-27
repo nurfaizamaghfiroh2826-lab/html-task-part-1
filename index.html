@@ -4,11 +4,22 @@
     <title>HTML Task Part 1</title>
 
     <style>
+        h1 {
+            text-align: left;
+            margin-left: 5%;
+        }
+
+        h1:first-of-type {
+            text-align: center;
+            margin-left: 0;
+        }
+
         .grade-a {
             border-collapse: separate;
             border-spacing: 1px;
             border: 1px solid black;
-            width: 85%;
+            width: 95%;
+            margin: 0 auto;
         }
 
         .grade-a th,
@@ -18,11 +29,11 @@
             text-align: center;
         }
 
-
         .grade-b,
         .grade-c {
             border-collapse: collapse;
-            width: 65%;
+            width: 90%;
+            margin: 0 auto;
         }
 
         .grade-b td,
@@ -31,7 +42,6 @@
             padding: 7px;
             text-align: center;
         }
-
 
         .biru {
             background-color: #6795e5;
@@ -43,6 +53,8 @@
 
 <body>
 
+    <h1>HTML Task Part 1</h1>
+
     <h1>Grade A</h1>
 
     <table class="grade-a">
@@ -51,31 +63,26 @@
             <tr>
                 <th rowspan="2">No</th>
                 <th rowspan="2">Nama</th>
-
                 <th colspan="2">HTML</th>
                 <th colspan="2">CSS</th>
                 <th colspan="2">JavaScript</th>
-
                 <th rowspan="2">Keterangan</th>
             </tr>
 
             <tr>
                 <th>Initial</th>
                 <th>Final</th>
-
                 <th>Initial</th>
                 <th>Final</th>
-
                 <th>Initial</th>
                 <th>Final</th>
             </tr>
         </thead>
 
         <tbody>
-
             <tr>
                 <td>1</td>
-                <td>Bill</td>
+                <td>Andi</td>
                 <td>80</td>
                 <td>90</td>
                 <td>78</td>
@@ -87,7 +94,7 @@
 
             <tr>
                 <td>2</td>
-                <td>Budi</td>
+                <td>Sinta</td>
                 <td>78</td>
                 <td>90</td>
                 <td>88</td>
@@ -99,7 +106,7 @@
 
             <tr>
                 <td>3</td>
-                <td>Abde</td>
+                <td>Rizky</td>
                 <td>82</td>
                 <td>89</td>
                 <td>84</td>
@@ -108,7 +115,6 @@
                 <td>90</td>
                 <td>Lulus</td>
             </tr>
-
         </tbody>
 
     </table>
@@ -119,7 +125,6 @@
     <table class="grade-b">
 
         <thead>
-
             <tr>
                 <td colspan="4" class="biru">
                     Laporan Mahasiswa
@@ -137,22 +142,18 @@
                 <td>Jalan</td>
                 <td>Kota</td>
             </tr>
-
         </thead>
 
         <tbody>
-
             <tr>
-                <td>Raka</td>
-                <td>Gibran</td>
-                <td>Sudirman</td>
-                <td>Bandung</td>
+                <td>Fajar</td>
+                <td>Pratama</td>
+                <td>Diponegoro</td>
+                <td>Batam</td>
             </tr>
 
             <tr>
-                <td colspan="4">
-                    Hasil Studi
-                </td>
+                <td colspan="4">Hasil Studi</td>
             </tr>
 
             <tr>
@@ -171,9 +172,7 @@
             </tr>
 
             <tr>
-                <td colspan="4">
-                    Catatan Tambahan
-                </td>
+                <td colspan="4">Catatan Tambahan</td>
             </tr>
 
             <tr>
@@ -182,7 +181,6 @@
                     dalam kegiatan ekstrakurikuler.
                 </td>
             </tr>
-
         </tbody>
 
     </table>
@@ -193,53 +191,49 @@
     <table class="grade-c">
 
         <thead>
-
             <tr>
                 <td class="biru">Hari</td>
                 <td class="biru">Waktu</td>
                 <td class="biru">Mata Kuliah</td>
                 <td class="biru">Dosen</td>
             </tr>
-
         </thead>
 
         <tbody>
-
             <tr>
                 <td>Senin</td>
                 <td>08:00 - 10:00</td>
                 <td>Kalkulus</td>
-                <td>Prof. Ahmad</td>
+                <td>Dr. Hendra</td>
             </tr>
 
             <tr>
                 <td>Selasa</td>
                 <td>09:00 - 11:00</td>
                 <td>Algoritma dan Struktur Data</td>
-                <td>Dr. Budi</td>
+                <td>Dr. Maya</td>
             </tr>
 
             <tr>
                 <td>Rabu</td>
                 <td>10:00 - 12:00</td>
                 <td>Pemrograman Web</td>
-                <td>Dr. Cindy</td>
+                <td>Prof. Rina</td>
             </tr>
 
             <tr>
                 <td>Kamis</td>
                 <td>08:00 - 10:00</td>
                 <td>Jaringan Komputer</td>
-                <td>Prof. Elsa</td>
+                <td>Dr. Dimas</td>
             </tr>
 
             <tr>
                 <td>Jumat</td>
                 <td>13:00 - 15:00</td>
                 <td>Basis Data</td>
-                <td>Dr. Farhan</td>
+                <td>Prof. Nanda</td>
             </tr>
-
         </tbody>
 
     </table>
